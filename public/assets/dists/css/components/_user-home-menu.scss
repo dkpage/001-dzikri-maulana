@@ -1,0 +1,34 @@
+nav#user-home-nav {
+    ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: start;
+        gap: 10px;
+        max-height: 180px;
+        li.menu-item {
+            a.menu-link {
+                width: 60px;
+                height: 60px;
+                background-color: transparent;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                word-wrap: break-word;
+                text-align: center;
+                margin: 5px;
+                color: $primary;
+                i {
+                    font-size: 22pt;
+                    line-height: 20px;
+                }
+                span {
+                    line-height: 10pt;
+                }
+            }
+        }
+    }
+}

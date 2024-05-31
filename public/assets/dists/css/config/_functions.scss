@@ -1,0 +1,7 @@
+// FUNCTION
+@mixin hocus {
+    &:hover,
+    &:focus {
+        @content;
+    }
+}

@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
-@include('partials.head')
+<head>
+    @include('partials.head')
+    @yield('pages_css')
+</head>
+
 
 <body>
-    @yield('main_layout')
-    @include('partials.footer')
+    @include('partials.components.preloader')
+    @yield('page_content')
+    @include('partials.components.footer')
+    @include('partials.scripts')
 </body>
 
 </html>

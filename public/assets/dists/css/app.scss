@@ -1,0 +1,76 @@
+// IMPORT THEME SASS
+@import "theme";
+
+// ADD BULMA CSS
+// @import "../../plugins/bulma/bulma";
+
+// MODIFY PLUGINS
+// DataTables
+@import "mod/datatables";
+
+// LOCAL CSS CONFIGURATION
+@import "config/functions";
+@import "config/breakpoints";
+@import "config/reset";
+// LOCAL CSS COMPONENTS
+@import "components/user-home-menu";
+@import "components/user-home-info";
+@import "components/documentPage";
+@import "components/mobile-nav";
+@import "components//loadingAjax";
+@import "components/imgEditOverlay";
+// LOCAL PAGES
+@import "pages/login";
+
+.page-wrapper {
+    @media ($sm) {
+        padding-bottom: 80px;
+    }
+}
+
+header.topbar {
+    // height: 60px;
+    padding: 0;
+    box-shadow: 2px 1px 10px 1px #0000001b;
+    nav {
+        .navbar-brand {
+            a {
+                img {
+                    width: 120px;
+                }
+            }
+        }
+    }
+}
+
+.user-home-card {
+    @media ($sm) {
+        // text-align: center;
+    }
+    .card {
+        .card-body {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            @media ($sm) {
+                display: block;
+                // flex-direction: column;
+                text-align: left;
+                gap: 20px;
+
+                .card-btn {
+                    margin-top: 20px;
+                    width: 100%;
+                    display: block;
+
+                    a {
+                        width: 100%;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}

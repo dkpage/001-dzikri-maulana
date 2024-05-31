@@ -1,0 +1,16 @@
+.dt-buttons {
+    gap: 5px;
+    .btn {
+        span {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            i::before {
+                line-height: 0;
+                margin-bottom: 0;
+                place-content: center;
+            }
+        }
+    }
+}

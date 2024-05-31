@@ -1,0 +1,10 @@
+// This is source theme css from FreeDash Lite
+@import "../../theme/scss/style";
+
+// CUSTOMIZING THEME
+#main-wrapper {
+    #user-page-wrapper.page-wrapper.user-page {
+        margin-left: 0 !important;
+        min-height: calc(100vh - $topbar-height);
+    }
+}

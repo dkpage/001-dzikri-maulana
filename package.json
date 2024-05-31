@@ -9,5 +9,25 @@
         "axios": "^1.6.4",
         "laravel-vite-plugin": "^1.0",
         "vite": "^5.0"
+    },
+    "dependencies": {
+        "datatables.net-autofill-bm": "^2.7.0",
+        "datatables.net-bm": "^2.0.7",
+        "datatables.net-buttons-bm": "^3.0.2",
+        "datatables.net-colreorder-bm": "^2.0.2",
+        "datatables.net-datetime": "^1.5.2",
+        "datatables.net-fixedcolumns-bm": "^5.0.0",
+        "datatables.net-fixedheader-bm": "^4.0.1",
+        "datatables.net-keytable-bm": "^2.12.0",
+        "datatables.net-responsive-bm": "^3.0.2",
+        "datatables.net-rowgroup-bm": "^1.5.0",
+        "datatables.net-rowreorder-bm": "^1.5.0",
+        "datatables.net-scroller-bm": "^2.4.2",
+        "datatables.net-searchbuilder-bm": "^1.7.1",
+        "datatables.net-searchpanes-bm": "^2.3.0",
+        "datatables.net-select-bm": "^2.0.2",
+        "datatables.net-staterestore-bm": "^1.4.1",
+        "jszip": "^3.10.1",
+        "pdfmake": "^0.2.10"
     }
 }
